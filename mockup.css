@@ -1,0 +1,81 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
+
+#newsletter {
+    margin: 20px 0px;
+}
+
+/* .qoute h5 {
+    max-width: 700px;
+    text-align: center;
+} */
+/* SCHEDULE SECTION */
+.schedule {
+    background: #71a1be;
+    padding-top: 10px;
+    margin: 20px 0;
+}
+
+.schedule img {
+    width: 150px;
+}
+
+/* SPEAKER SECTION */
+.checkboxList img {
+    width: 30px;
+}
+
+.checkboxList {
+    background: lightgray;
+}
+
+.speaker {
+    /* height: 25%; */
+    margin: 20px 0;
+}
+
+.person {
+    background: #005282;
+
+}
+
+.person img {
+    height: 90%;
+    margin:10px 0;
+}
+
+/* WARNING SECTION */
+
+.warning {
+    background: #f58c99;
+    height:70px;
+}
+
+.warning p {
+    padding: 20px 0;
+    color: #fff;
+    font-size: px;
+}
+
+.claim {
+    background: #05263a;
+    height: 60px;
+}
+
+.claim p {
+    padding: 15px 0;
+    color: #fff;
+}

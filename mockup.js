@@ -19,17 +19,6 @@ function check_checkbox()
   }
 }
 
-function pageRedirect() {
-    window.location.replace("https://www.tutorialrepublic.com/");
-}      
-setTimeout("pageRedirect()", 10000);
-
-
-
-
-
-
-
 
 //function for timer
 

@@ -42,6 +42,10 @@ body {
     background: lightgray;
 }
 
+.checkboxList p {
+    font-size: 18px
+}
+
 .speaker {
     /* height: 25%; */
     margin: 20px 0;
@@ -53,8 +57,12 @@ body {
 }
 
 .person img {
-    height: 90%;
+    height: 60%;
     margin:10px 0;
+}
+
+.person p, h3 {
+    color: #fff;
 }
 
 /* WARNING SECTION */

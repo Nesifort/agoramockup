@@ -90,9 +90,13 @@
             <form >
                 <input type="checkbox" name= "checkbox2" id="newsletter" onClick="toggle(this)"> I would like to recieve a free newsletter<br>
             
-                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" onclick="validate()">YES! Reserve My Spot Now!</a>
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" onclick="return check_checkbox()">YES! Reserve My Spot Now!</a>
 
             </form>
+
+            <div id="confirmed" style="display: none">
+                <p>Congratulations! Your spot is reserved!</p>
+            </div>
         </div>
         <script src="mockup.js"></script>
     </body>

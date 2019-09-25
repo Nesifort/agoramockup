@@ -11,7 +11,8 @@ function toggle(source) {
 function check_checkbox() 
 {  
   if($('#newsletter').is(':checked')) {
-    window.location.href = 'https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/';
+    // window.location.href = 'https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/';
+    $('#confirmed').show();
     return true;
   } else {
     alert("To proceed you must check the checkboxes");
@@ -38,5 +39,10 @@ var x = setInterval( function() {
             document.getElementById("").innerHTML = "EXPIRED"; 
         } 
     }, 1000);
+
+
+
+//function for confirmation for reservation
+
 
 
